@@ -1,109 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Movie Seat Booking</title>
-  </head>
-  <body>
+</head>
+<body>
     <div class="movie-container">
-      <label> Select a movie:</label>
-      <select id="movie">
-        <option value="220">Godzilla vs Kong (RS.220)</option>
-        <option value="320">Radhe (RS.320)</option>
-        <option value="250">RRR (RS.250)</option>
-        <option value="260">F9 (RS.260)</option>
-      </select>
+        <label for="movie">Select a movie:</label>
+        <select id="movie">
+            <option value="220">Godzilla vs Kong (Rs.220)</option>
+            <option value="320">Radhe (Rs.320)</option>
+            <option value="250">RRR (Rs.250)</option>
+            <option value="260">F9 (Rs.260)</option>
+        </select>
     </div>
 
     <ul class="showcase">
-      <li>
-        <div class="seat"></div>
-        <small>Available</small>
-      </li>
-      <li>
-        <div class="seat selected"></div>
-        <small>Selected</small>
-      </li>
-      <li>
-        <div class="seat sold"></div>
-        <small>Sold</small>
-      </li>
+        <li>
+            <div class="seat"></div>
+            <small>Available</small>
+        </li>
+        <li>
+            <div class="seat selected"></div>
+            <small>Selected</small>
+        </li>
+        <li>
+            <div class="seat sold"></div>
+            <small>Sold</small>
+        </li>
     </ul>
+
     <div class="container">
-      <div class="screen"></div>
+        <div class="screen"></div>
 
-      <div class="row">
-        <div class="seat"><a id="seat1">A1</a></div>
-        <div class="seat"><a id="seat2">A2</a></div>
-        <div class="seat"><a id="seat3">A3</a></div>
-        <div class="seat"><a id="seat4">A4</a></div>
-        <div class="seat"><a id="seat5">A5</a></div>
-        <div class="seat"><a id="seat6">A6</a></div>
-        <div class="seat"><a id="seat7">A7</a></div>
-        <div class="seat"><a id="seat8">A8</a></div>
-      </div>
+        <!-- Row A -->
+        <div class="row">
+            <div class="seat"><a>A1</a></div>
+            <div class="seat"><a>A2</a></div>
+            <div class="seat"><a>A3</a></div>
+            <div class="seat"><a>A4</a></div>
+            <div class="seat"><a>A5</a></div>
+            <div class="seat"><a>A6</a></div>
+            <div class="seat"><a>A7</a></div>
+            <div class="seat"><a>A8</a></div>
+        </div>
 
-      <div class="row">
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat sold"></div>
-        <div class="seat sold"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-      </div>
-      <div class="row">
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat sold"></div>
-        <div class="seat sold"></div>
-      </div>
-      <div class="row">
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-      </div>
-      <div class="row">
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat sold"></div>
-        <div class="seat sold"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-      </div>
-      <div class="row">
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat sold"></div>
-        <div class="seat sold"></div>
-        <div class="seat sold"></div>
-        <div class="seat"></div>
-      </div>
+        <!-- Row B -->
+        <div class="row">
+            <div class="seat"><a>B1</a></div>
+            <div class="seat"><a>B2</a></div>
+            <div class="seat"><a>B3</a></div>
+            <div class="seat"><a>B4</a></div>
+            <div class="seat"><a>B5</a></div>
+            <div class="seat"><a>B6</a></div>
+            <div class="seat"><a>B7</a></div>
+            <div class="seat"><a>B8</a></div>
+        </div>
+
+        <!-- Row C -->
+        <div class="row">
+            <div class="seat"><a>C1</a></div>
+            <div class="seat"><a>C2</a></div>
+            <div class="seat"><a>C3</a></div>
+            <div class="seat"><a>C4</a></div>
+            <div class="seat"><a>C5</a></div>
+            <div class="seat"><a>C6</a></div>
+            <div class="seat"><a>C7</a></div>
+            <div class="seat"><a>C8</a></div>
+        </div>
+
+        <!-- Row D -->
+        <div class="row">
+            <div class="seat"><a>D1</a></div>
+            <div class="seat"><a>D2</a></div>
+            <div class="seat"><a>D3</a></div>
+            <div class="seat"><a>D4</a></div>
+            <div class="seat"><a>D5</a></div>
+            <div class="seat"><a>D6</a></div>
+            <div class="seat"><a>D7</a></div>
+            <div class="seat"><a>D8</a></div>
+        </div>
+
+        <!-- Row E -->
+        <div class="row">
+            <div class="seat"><a>E1</a></div>
+            <div class="seat"><a>E2</a></div>
+            <div class="seat"><a>E3</a></div>
+            <div class="seat"><a>E4</a></div>
+            <div class="seat"><a>E5</a></div>
+            <div class="seat"><a>E6</a></div>
+            <div class="seat"><a>E7</a></div>
+            <div class="seat"><a>E8</a></div>
+        </div>
     </div>
 
     <p class="text">
-      You have selected <span id="count">0</span> seat for a price of RS.<span
-        id="total"
-        >0</span
-      >
+        You have selected <span id="count">0</span> seat(s) for a price of Rs.<span id="total">0</span>
     </p>
+
     <script src="script.js"></script>
-  </body>
+</body>
 </html>
