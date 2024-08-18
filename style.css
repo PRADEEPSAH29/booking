@@ -40,7 +40,7 @@ ul.showcase {
     justify-content: center;
     list-style: none;
     padding: 0;
-    margin: 20px 0;
+    margin: 2px 0;
 }
 
 ul.showcase li {
@@ -68,7 +68,7 @@ ul.showcase li {
 
 .showcase small {
     display: block;
-    margin-top: 5px;
+    margin-top: px;
     font-size: 14px;
     color: #555;
 }
@@ -79,7 +79,7 @@ ul.showcase li {
     align-items: center;
     width: 50%;
     margin: 0 auto;
-    padding: 20px;
+    padding: 10px;
     background-color: #b67979;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -89,7 +89,7 @@ ul.showcase li {
     width: 100%;
     height: 50px;
     background-color: #333;
-    margin: 20px 0;
+    margin: 10px 0;
     position: relative;
     text-align: center;
     color: #fff;
@@ -158,4 +158,27 @@ ul.showcase li {
 }
 .footerBottom p{
     color: white;
+    
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.proceed-button {
+    display: block;
+    font-size: 14px;
+    padding: 10px 20px;
+    color: #b67979;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 12px;
+    font-weight: 600;
+}
+
+.proceed-button:hover {
+    background-color: #0056b3;
 }
