@@ -182,3 +182,19 @@ ul.showcase li {
 .proceed-button:hover {
     background-color: #0056b3;
 }
+.seata {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 3px;
+    background-color: #444;
+    margin: 5px;
+}
+
+.seata.selected {
+    background-color: #4caf50;
+}
+
+.seata.sold {
+    background-color: #ff4d4d;
+}
