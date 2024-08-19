@@ -15,7 +15,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .logo img {
-    width: 8%;
+    height: 100px;
     display: block;
     filter: sepia(1) hue-rotate(-50deg) saturate(10) brightness(0.7) contrast(1.1);
 
@@ -197,4 +197,62 @@ ul.showcase li {
 
 .seata.sold {
     background-color: #ff4d4d;
+}
+.timings {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin: 5px auto;
+}
+.dates {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.dates-item {
+  width: 50px;
+  height: 20px;
+  background: rgb(233, 233, 233);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 9px 0;
+  border-radius: 5mm;
+  cursor: pointer;
+}
+.day {
+  font-size: 11px;
+}
+.times {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.time {
+  font-size: 14px;
+  width: fit-content;
+  padding: 7px 14px;
+  background: rgb(233, 233, 233);
+  border-radius: 2mm;
+  cursor: pointer;
+}
+.timings input:checked + label {
+  background: rgb(28, 185, 120);
+  color: white;
+}
+.orange{
+    align-items: center;
+    flex-direction: column;
+}
+.apple{
+    align-items: center;
+    flex-direction: column;
 }
