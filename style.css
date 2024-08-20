@@ -150,14 +150,6 @@ ul.showcase li {
         flex-direction: column;
         align-items: center;
     }
-}
-.footerBottom{
-    background-color: #000;
-    padding: 0px;
-    text-align: center;
-}
-.footerBottom p{
-    color: white;
     
 }
 .button-container {
@@ -255,4 +247,27 @@ ul.showcase li {
 .apple{
     align-items: center;
     flex-direction: column;
+    
+}
+footer{
+        text-align: center;
+        padding: 10px 0;
+        background: rgb(192, 186, 186);
+        color: #4f4b4b;
+        width: 100%;
+        bottom: 0;
+}
+.ta-footer-title h4 {
+  color: white;
+  margin-top: 8%;
+
+}
+.footerBottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
 }
